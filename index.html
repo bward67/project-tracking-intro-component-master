@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Project tracking intro component</title>
+  </head>
+  <body>
+    <div class="blue-bg"></div>
+    <main>
+      <nav>
+        <div class="mobile-nav-container container">
+          <div class="mobile-nav">
+            <div class="mobile-nav-logo">
+              <img src="images/logo.svg" alt="" />
+            </div>
+            <div class="mobile-menu-btn">
+              <div>
+                <img
+                  src="images/icon-hamburger.svg"
+                  alt=""
+                  class="hamburger-icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="mobile-nav-dropdown">
+            <a href="#">Product</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#" class="login">login</a>
+          </div>
+        </div>
+        <div class="desktop-nav-container container">
+          <div class="desktop-logo">
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <div class="desktop-links">
+            <div><a href="#">Product</a></div>
+            <div><a href="#">Features</a></div>
+            <div><a href="#">Pricing </a></div>
+            <div class="circle"></div>
+            <div><a href="#" class="login">login</a></div>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div class="section-content container">
+          <div class="content-top">
+            <button class="new-btn">New</button>
+            <small>Monograph Dashboard</small>
+          </div>
+          <h1>Powerful insights into your team</h1>
+          <p>Project planning and time tracking for agile teams</p>
+          <div class="section-bottom">
+            <button class="demo-btn">Schedule a demo</button>
+            <small>to see a preview</small>
+          </div>
+        </div>
+        <div class="section-img">
+          <img src="images/illustration-devices.svg" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="app.js"></script>
+</html>
